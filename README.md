@@ -54,39 +54,64 @@ profit = total_amount - (quantity * unit_cost)
 order_lead_time = delivery_date - order_date  # in days
 shipping_time_days = ship_date - order_date   # in days
 ```
------
-### 📈 Key Findings & Insights
-💼 Customer Performance
-Metric	Top Performer	Value
-Revenue	Home Depot	$30.94M
-Order Volume	Verizon Communications	1.69K units
-🌍 Geographic Analysis
-Top State: New York (highest revenue contribution)
-Underperforming: Ohio & Michigan (require strategic intervention)
-Market Split: Strong domestic performance; international markets need focus
-📦 Product Performance
-Category	Product	Performance
-Highest Revenue	AutoCAD Business	$41M+
-Highest Quantity	LG UltraWide 34WN80C	Top seller by units
-🏭 Industry Analysis
-Top Industries: Telecommunications & Healthcare
-Growth Opportunity: Manufacturing sector
-📊 Operational Metrics
-Metric	Value
-Cancellation Rate	3%
-Return Rate	2%
-Avg. Shipping Time	3.00 days
-💡 Discount Impact Analysis
-Slight discounts correlate with increased revenue
-Zero-discount transactions showed significant losses
-🔗 Correlation Insights
-Variables	Correlation	Interpretation
-Total Amount ↔ Discount	0.96	Strong positive relationship
-Total Amount ↔ Profit	0.86	Higher transactions yield greater profits
-------
-📁 Project Structure
-text
+# 📈 Key Findings & Insights
 
+## 💼 Customer Performance
+| Metric         | Top Performer              | Value        |
+|---------------|----------------------------|--------------|
+| Revenue       | Home Depot                 | $30.94M      |
+| Order Volume  | Verizon Communications     | 1.69K units  |
+
+---
+
+## 🌍 Geographic Analysis
+- **Top State:** New York (highest revenue contribution)
+- **Underperforming States:** Ohio & Michigan (require strategic intervention)
+- **Market Split:**  
+  - Strong domestic performance  
+  - International markets require additional focus
+
+---
+
+## 📦 Product Performance
+| Category          | Product                    | Performance              |
+|------------------|----------------------------|--------------------------|
+| Highest Revenue  | AutoCAD Business           | $41M+                    |
+| Highest Quantity | LG UltraWide 34WN80C       | Top seller by units      |
+
+---
+
+## 🏭 Industry Analysis
+- **Top Industries:** Telecommunications & Healthcare
+- **Growth Opportunity:** Manufacturing sector
+
+---
+
+## 📊 Operational Metrics
+| Metric              | Value       |
+|--------------------|-------------|
+| Cancellation Rate  | 3%          |
+| Return Rate        | 2%          |
+| Avg. Shipping Time | 3.00 days   |
+
+---
+
+## 💡 Discount Impact Analysis
+- Slight discounts correlate with increased revenue
+- Zero-discount transactions showed significant losses
+
+---
+
+## 🔗 Correlation Insights
+| Variables                   | Correlation | Interpretation                          |
+|----------------------------|-------------|------------------------------------------|
+| Total Amount ↔ Discount    | 0.96        | Strong positive relationship             |
+| Total Amount ↔ Profit      | 0.86        | Higher transaction values drive profit   |
+
+---
+
+## 📁 Project Structure
+```text
 sales-operations-analytics/
 │
 ├── 📂 data/
@@ -107,47 +132,6 @@ sales-operations-analytics/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-🚀 Getting Started
-Prerequisites
-Bash
 
-Python 3.9+
-pip install -r requirements.txt
-Installation
-Bash
-
-# Clone the repository
-git clone https://github.com/yourusername/sales-operations-analytics.git
-
-# Navigate to project directory
-cd sales-operations-analytics
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter Notebook
-jupyter notebook
-Requirements.txt
-text
-
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-jupyter>=1.0.0
-📊 Strategic Recommendations
-Based on the analysis, the following actions are recommended:
-
-Customer Strategy: Develop loyalty programs for top customers (Home Depot, Verizon)
-Geographic Expansion: Invest in targeted marketing for Ohio & Michigan
-Pricing Optimization: Implement strategic discount tiers based on correlation findings
-International Growth: Develop market entry strategies for underperforming regions
-Supplier Diversification: Increase procurement from Suppliers 6 & 8 to balance risk
-🔮 Future Enhancements
- Implement predictive models for sales forecasting
- Build interactive dashboards using Power BI/Tableau
- Develop customer segmentation using clustering algorithms
- Create automated reporting pipeline
- Add time-series analysis for seasonal trends
 👤 Author
 Shivang Sagwaliya
