@@ -54,6 +54,7 @@ profit = total_amount - (quantity * unit_cost)
 order_lead_time = delivery_date - order_date  # in days
 shipping_time_days = ship_date - order_date   # in days
 ```
+-----
 ### 📈 Key Findings & Insights
 💼 Customer Performance
 Metric	Top Performer	Value
@@ -82,6 +83,7 @@ Zero-discount transactions showed significant losses
 Variables	Correlation	Interpretation
 Total Amount ↔ Discount	0.96	Strong positive relationship
 Total Amount ↔ Profit	0.86	Higher transactions yield greater profits
+------
 📁 Project Structure
 text
 
