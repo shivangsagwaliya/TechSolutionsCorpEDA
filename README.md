@@ -1,4 +1,4 @@
-# 📊 Sales & Operations Analytics Dashboard
+# 📊 TechSolutionsCorp Sales & Operations Analytics
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
