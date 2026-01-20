@@ -53,7 +53,8 @@ text
 profit = total_amount - (quantity * unit_cost)
 order_lead_time = delivery_date - order_date  # in days
 shipping_time_days = ship_date - order_date   # in days
-📈 Key Findings & Insights
+```
+### 📈 Key Findings & Insights
 💼 Customer Performance
 Metric	Top Performer	Value
 Revenue	Home Depot	$30.94M
