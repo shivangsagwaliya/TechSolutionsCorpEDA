@@ -23,10 +23,10 @@ A comprehensive end-to-end data analysis project examining **192,921+ sales tran
 | Dataset | Description | Records |
 |---------|-------------|---------|
 | `orders` | Transaction-level order data | 192,921 |
-| `customers` | Customer demographics & industry | - |
-| `employees` | Sales representative information | - |
-| `products` | Product catalog with pricing | - |
-| `suppliers` | Supplier details & ratings | - |
+| `customers` | Customer demographics & industry | 8000 |
+| `employees` | Sales representative information | 150 |
+| `products` | Product catalog with pricing | 245 |
+| `suppliers` | Supplier details & ratings | 33 |
 
 **Final Merged Dataset:** 192,921 entries × 54 columns
 
