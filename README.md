@@ -109,29 +109,5 @@ shipping_time_days = ship_date - order_date   # in days
 | Total Amount ↔ Profit      | 0.86        | Higher transaction values drive profit   |
 
 ---
-
-## 📁 Project Structure
-```text
-sales-operations-analytics/
-│
-├── 📂 data/
-│   ├── raw/                    # Original datasets
-│   └── processed/              # Cleaned & merged data
-│
-├── 📂 notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_exploratory_analysis.ipynb
-│
-├── 📂 reports/
-│   └── findings_summary.pdf
-│
-├── 📂 visualizations/
-│   └── charts/
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-
 👤 Author
 Shivang Sagwaliya
