@@ -37,9 +37,6 @@ A comprehensive end-to-end data analysis project examining **192,921+ sales tran
 ### Tech Stack
 Python | Pandas | NumPy | Matplotlib | Seaborn | Jupyter Notebook
 
-text
-
-
 ### Data Cleaning & Preparation
 - ✅ Converted date columns (`order_date`, `ship_date`, `delivery_date`) to datetime objects
 - ✅ Handled null values in `ship_date` and `delivery_date`
