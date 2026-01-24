@@ -56,13 +56,13 @@ shipping_time_days = ship_date - order_date   # in days
 ## 💼 Customer Performance
 | Metric         | Top Performer              | Value        |
 |---------------|----------------------------|--------------|
-| Revenue       | Home Depot                 | $30.94M      |
+| Revenue       | Home Depot                 | $30.74M      |
 | Order Volume  | Verizon Communications     | 1.69K units  |
 
 ---
 
 ## 🌍 Geographic Analysis
-- **Top State:** New York (highest revenue contribution)
+- **Top State:** New York ($205M in sales)
 - **Underperforming States:** Ohio & Michigan (require strategic intervention)
 - **Market Split:**  
   - Strong domestic performance  
@@ -80,22 +80,24 @@ shipping_time_days = ship_date - order_date   # in days
 
 ## 🏭 Industry Analysis
 - **Top Industries:** Telecommunications & Healthcare
+- Healthcare leads with $241M in revenue.
 - **Growth Opportunity:** Manufacturing sector
 
 ---
 
 ## 📊 Operational Metrics
-| Metric              | Value       |
-|--------------------|-------------|
-| Cancellation Rate  | 3%          |
-| Return Rate        | 2%          |
-| Avg. Shipping Time | 3.00 days   |
+| Metric                              | Value       |
+|-------------------------------------|-------------|
+| Cancellation Rate                   | 3%          |
+| Return Rate                         | 2%          |
+| Avg. Order Processing Time          | 3.00 days   |
+| Avg. Delivery Time                  | 5.81 days   |
+| Avg. Order FulFillment Time         | 8.82 days   |
 
 ---
 
 ## 💡 Discount Impact Analysis
 - Slight discounts correlate with increased revenue
-- Zero-discount transactions showed significant losses
 
 ---
 
